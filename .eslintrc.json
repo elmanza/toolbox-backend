@@ -1,0 +1,15 @@
+{
+    "env": {
+      "node": true,
+      "commonjs": true,
+      "es2021": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 12, // Node.js 14 usa ES2020, pero `standard` prefiere ES12
+      "sourceType": "script" // Indica que no estás usando `module`
+    },
+    "rules": {
+      "no-console": "off"
+    }
+  }
+  
